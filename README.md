@@ -1,10 +1,10 @@
 # dotfiles
 
-This repository contains all of my configuration files for Debian 12.
+This repository contains all of my configuration files for Fedora.
 
 ## Installation
 ```
-$ git clone git@github.com/humding3r/dotfiles.git
+$ git clone git@github.com/jet-inigo/dotfiles.git
 $ cd dotfiles
 $ stow .
 ```
