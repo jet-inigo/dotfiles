@@ -20,3 +20,4 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Set up plugins
 require("lazy").setup("plugins")
+require("oil").setup()
