@@ -19,6 +19,9 @@ fish_add_path -g -p $HOME/.pub-cache/bin
 # add nvim to path
 fish_add_path -g -p /opt/nvim-linux64/bin
 
+# add .dotnet/tools to path
+fish_add_path -g -p $HOME/.dotnet/tools
+
 # add pyenv to path
 set -Ux PYENV_ROOT $HOME/.pyenv
 fish_add_path $PYENV_ROOT/bin
