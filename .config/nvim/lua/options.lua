@@ -11,6 +11,8 @@ vim.opt.expandtab = true
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 0 -- 0 defaults to tabstop value
 
+vim.opt.wrap = false
+
 vim.opt.termguicolors = true
 
 vim.diagnostic.config({
