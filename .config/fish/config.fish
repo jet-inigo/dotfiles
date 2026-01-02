@@ -19,6 +19,9 @@ fish_add_path -g -p $HOME/.pub-cache/bin
 # add nvim to path
 fish_add_path -g -p /opt/nvim-linux64/bin
 
+# add cargo binaries to path
+fish_add_path -g -p $HOME/.cargo/bin
+
 # add .dotnet/tools to path
 fish_add_path -g -p $HOME/.dotnet/tools
 
