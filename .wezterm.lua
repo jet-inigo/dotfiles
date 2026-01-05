@@ -74,7 +74,7 @@ config.keys = {
     -- tabs
     {
         mods   = "LEADER",
-        key    = "c",
+        key    = "t",
         action = act.SpawnTab "CurrentPaneDomain",
     },
     {
