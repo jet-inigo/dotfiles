@@ -10,15 +10,5 @@ return {
       "clangd",
       "csharp_ls",
     },
-
-    handlers = {
-      -- Default handler for all servers
-      function(server_name)
-        require("lspconfig")[server_name].setup({
-          capabilities = capabilities,
-          settings = {},
-        })
-      end,
-    },
   },
 }
