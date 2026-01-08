@@ -26,6 +26,22 @@ return {
     -- See :h blink-cmp-config-keymap for defining your own keymap
     keymap = { preset = 'default' },
 
+    -- Opt in to signature help
+    signature = {
+      enabled = true,
+      -- Only show on hotkey
+      trigger = {
+        show_on_keyword = false,
+        show_on_trigger_character = false,
+        show_on_insert = false,
+        show_on_insert_on_trigger_character = false,
+        show_on_accept = false,
+        show_on_accept_on_trigger_character = false,
+      },
+      -- Always show documentation
+      window = { show_documentation = true },
+    },
+
     appearance = {
       -- 'mono' (default) for 'Nerd Font Mono' or 'normal' for 'Nerd Font'
       -- Adjusts spacing to ensure icons are aligned
