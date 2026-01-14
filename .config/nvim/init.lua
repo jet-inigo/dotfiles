@@ -23,4 +23,4 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup("plugins")
 require("mini.files").setup()
 require("lualine").setup({ options = { theme = "codedark" }})
-
+require("bufferline").setup{}

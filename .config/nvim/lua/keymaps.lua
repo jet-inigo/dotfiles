@@ -20,3 +20,10 @@ vim.keymap.set("n", "-", function()
   MiniFiles.open(path)
   MiniFiles.reveal_cwd()
 end, { desc = "Open Mini Files" })
+
+-- bufferline.nvim hotkeys
+vim.keymap.set("n", "<S-q>", ":bd<CR>", opts)
+vim.keymap.set("n", "<S-h>", ":BufferLineCyclePrev<CR>", opts)
+vim.keymap.set("n", "<S-l>", ":BufferLineCycleNext<CR>", opts)
+vim.keymap.set("n", "<C-h>", ":BufferLineMovePrev<CR>", opts)
+vim.keymap.set("n", "<C-l>", ":BufferLineMoveNext<CR>", opts)
