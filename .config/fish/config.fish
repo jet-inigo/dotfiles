@@ -33,6 +33,13 @@ fish_add_path $PYENV_ROOT/bin
 alias vim="nvim"
 funcsave -q vim
 
+# start ssh-agent if not already running
+if not pgrep --full ssh-agent | string collect > /dev/null
+    eval (ssh-agent -c)
+    set -Ux SSH_AGENT_PID $SSH_AGENT_PID
+    set -Ux SSH_AUTH_SOCK $SSH_AUTH_SOCK
+end
+
 zoxide init --cmd cd fish | source
 starship init fish | source
 pyenv init - fish | source
