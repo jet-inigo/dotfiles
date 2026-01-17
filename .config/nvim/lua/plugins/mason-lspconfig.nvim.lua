@@ -9,6 +9,8 @@ return {
       "basedpyright",
       "clangd",
       "csharp_ls",
+      "lua_ls",
+    },
     },
   },
 }
