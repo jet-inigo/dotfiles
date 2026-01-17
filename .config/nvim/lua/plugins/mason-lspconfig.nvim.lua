@@ -11,6 +11,12 @@ return {
       "csharp_ls",
       "lua_ls",
     },
+
+    handlers = {
+      function(server_name)
+        require("lspconfig")[server_name].setup({})
+      end,
     },
   },
 }
+
