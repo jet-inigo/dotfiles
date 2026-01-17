@@ -1,4 +1,4 @@
-vim.cmd("colorscheme unokai")
+vim.cmd("colorscheme neon")
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
