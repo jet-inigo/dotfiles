@@ -43,3 +43,5 @@ end
 zoxide init --cmd cd fish | source
 starship init fish | source
 pyenv init - fish | source
+
+set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin /home/jet/.ghcup/bin $PATH # ghcup-env
