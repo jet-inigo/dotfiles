@@ -28,6 +28,7 @@ vim.filetype.add({
 
 -- Set up plugins
 require("lazy").setup("plugins")
+require('nvim-highlight-colors').setup({})
 require("mini.files").setup()
 require("lualine").setup({ options = { theme = "codedark" }})
 require("bufferline").setup{}
