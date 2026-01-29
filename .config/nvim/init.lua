@@ -19,6 +19,13 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+vim.filetype.add({
+    pattern = {
+        ['.*.razor'] = 'html',
+        ['.*.cshtml'] = 'html',
+    }
+})
+
 -- Set up plugins
 require("lazy").setup("plugins")
 require("mini.files").setup()
