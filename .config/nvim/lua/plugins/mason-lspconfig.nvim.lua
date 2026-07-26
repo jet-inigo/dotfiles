@@ -8,7 +8,6 @@ return {
     ensure_installed = {
       "basedpyright",
       "clangd",
-      "csharp_ls",
       "lua_ls",
     },
 
