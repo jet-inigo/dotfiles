@@ -2,8 +2,8 @@
 alias py="python3"
 funcsave -q py
 
-# replace ls with exa
-alias ls="exa -aF --header --icons --git"
+# replace ls with eza
+alias ls="eza -aF --header --icons --git"
 funcsave -q ls
 
 # turn off greeting
