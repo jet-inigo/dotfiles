@@ -27,3 +27,7 @@ vim.keymap.set("n", "<S-h>", ":BufferLineCyclePrev<CR>", opts)
 vim.keymap.set("n", "<S-l>", ":BufferLineCycleNext<CR>", opts)
 vim.keymap.set("n", "<C-h>", ":BufferLineMovePrev<CR>", opts)
 vim.keymap.set("n", "<C-l>", ":BufferLineMoveNext<CR>", opts)
+
+-- refactor hotkeys
+vim.keymap.set("n", "<leader>r", "", vim.tbl_deep_extend("force", opts, { desc = "Refactor" }))
+vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, vim.tbl_deep_extend("force", opts, { desc = "Rename" }))
