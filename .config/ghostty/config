@@ -1,6 +1,6 @@
 # Start maximized
-window-decoration = false
 maximize = true
+window-decoration = false
 
 # Font
 font-family = "GoMono Nerd Font"
