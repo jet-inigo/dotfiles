@@ -1,0 +1,74 @@
+# Window
+[window]
+startup_mode = "Maximized"
+decorations = "none"
+
+# Shell (tmux)
+[terminal]
+shell = { program = "tmux" }
+
+# Font
+[font]
+size = 13.0
+
+[font.normal]
+family = "GoMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "GoMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "GoMono Nerd Font"
+style = "Italic"
+
+[font.bold_italic]
+family = "GoMono Nerd Font"
+style = "Bold Italic"
+
+# Colors
+[colors.primary]
+background = "#171717"
+foreground = "#f8f8f8"
+
+[colors.normal]
+black   = "#171717"
+red     = "#d81765"
+green   = "#97d01a"
+yellow  = "#ffa800"
+blue    = "#16b1fb"
+magenta = "#ff2491"
+cyan    = "#0fdcb6"
+white   = "#ebebeb"
+
+[colors.bright]
+black   = "#38252c"
+red     = "#ff0000"
+green   = "#76b639"
+yellow  = "#e1a126"
+blue    = "#289cd5"
+magenta = "#ff2491"
+cyan    = "#0a9b81"
+white   = "#f8f8f8"
+
+# Keybindings
+[[keyboard.bindings]]
+key = "Minus"
+mods = "Control"
+action = "DecreaseFontSize"
+
+[[keyboard.bindings]]
+key = "Equals"
+mods = "Control"
+action = "IncreaseFontSize"
+
+[[keyboard.bindings]]
+key = "C"
+mods = "Control|Shift"
+action = "Copy"
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Control|Shift"
+action = "Paste"
