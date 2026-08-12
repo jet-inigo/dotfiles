@@ -1,0 +1,46 @@
+# Start maximized
+window-decoration = false
+maximize = true
+
+# Font
+font-family = "GoMono Nerd Font"
+font-size = 13
+font-style = auto
+font-style-bold = auto
+font-style-italic = auto
+font-style-bold-italic = auto
+font-feature = -liga
+font-feature = -dlig
+font-feature = -clig
+
+# Shell
+command = tmux
+
+# Primary colors
+background = 171717
+foreground = f8f8f8
+
+# 16-color palette (0-15, same order as kitty color0-color15)
+palette = 0=#171717
+palette = 1=#d81765
+palette = 2=#97d01a
+palette = 3=#ffa800
+palette = 4=#16b1fb
+palette = 5=#ff2491
+palette = 6=#0fdcb6
+palette = 7=#ebebeb
+palette = 8=#38252c
+palette = 9=#ff0000
+palette = 10=#76b639
+palette = 11=#e1a126
+palette = 12=#289cd5
+palette = 13=#ff2491
+palette = 14=#0a9b81
+palette = 15=#f8f8f8
+
+# Keybindings — clear defaults first, then map only what we want
+keybind = clear
+keybind = ctrl+minus=decrease_font_size:1
+keybind = ctrl+equal=increase_font_size:1
+keybind = ctrl+shift+c=copy_to_clipboard
+keybind = ctrl+shift+v=paste_from_clipboard
