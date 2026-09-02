@@ -61,15 +61,15 @@ hi SpecialKey guifg=#5a6b6b guibg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=#5a6b6b guibg=NONE gui=NONE cterm=NONE
 hi Visual guifg=#0fdcb6 guibg=#171717 gui=reverse cterm=reverse
 hi VisualNOS guifg=#171717 guibg=#0a9b81 gui=NONE cterm=NONE
-hi Pmenu guifg=NONE guibg=#5a6b6b gui=NONE cterm=NONE
-hi PmenuThumb guifg=NONE guibg=#5a6b6b gui=NONE cterm=NONE
+hi Pmenu guifg=NONE guibg=#1f1f1f gui=NONE cterm=NONE
+hi PmenuThumb guifg=NONE guibg=#1f1f1f gui=NONE cterm=NONE
 hi PmenuSbar guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi PmenuSel guifg=NONE guibg=#289cd5 gui=NONE cterm=NONE
-hi PmenuKind guifg=#0fdcb6 guibg=#5a6b6b gui=NONE cterm=NONE
+hi PmenuKind guifg=#0fdcb6 guibg=#1f1f1f gui=NONE cterm=NONE
 hi PmenuKindSel guifg=#0fdcb6 guibg=#289cd5 gui=NONE cterm=NONE
-hi PmenuExtra guifg=#ebebeb guibg=#5a6b6b gui=NONE cterm=NONE
+hi PmenuExtra guifg=#ebebeb guibg=#1f1f1f gui=NONE cterm=NONE
 hi PmenuExtraSel guifg=#ebebeb guibg=#289cd5 gui=NONE cterm=NONE
-hi PmenuMatch guifg=#ffa800 guibg=#5a6b6b gui=NONE cterm=NONE
+hi PmenuMatch guifg=#ffa800 guibg=#1f1f1f gui=NONE cterm=NONE
 hi PmenuMatchSel guifg=#ffa800 guibg=#289cd5 gui=NONE cterm=NONE
 hi SignColumn guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi Error guifg=#ff0000 guibg=#171717 gui=reverse cterm=reverse
