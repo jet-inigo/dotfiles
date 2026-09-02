@@ -44,7 +44,7 @@ hi! link markdownCodeDelimiter markdownCode
 hi Normal guifg=#f8f8f8 guibg=#171717 gui=NONE cterm=NONE
 hi StatusLine guifg=#171717 guibg=#ebebeb gui=NONE cterm=NONE
 hi StatusLineNC guifg=#171717 guibg=#5a6b6b gui=NONE cterm=NONE
-hi VertSplit guifg=#5a6b6b guibg=#5a6b6b gui=NONE cterm=NONE
+hi VertSplit guifg=#f8f8f8 guibg=#1f1f1f gui=NONE cterm=NONE
 hi TabLine guifg=#171717 guibg=#5a6b6b gui=NONE cterm=NONE
 hi TabLineFill guifg=#171717 guibg=#5a6b6b gui=NONE cterm=NONE
 hi TabLineSel guifg=#171717 guibg=#ebebeb gui=bold cterm=bold
