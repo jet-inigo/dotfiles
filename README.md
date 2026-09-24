@@ -9,3 +9,13 @@ $ cd dotfiles
 $ stow .
 ```
 
+## Tools
+- fish
+- starship
+- ghostty
+- tmux
+- lazygit
+- neovim
+- difftastic
+- eza
+- zoxide
